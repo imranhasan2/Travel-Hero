@@ -1,3 +1,14 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* nav section */
+
 header {
     max-width: 1170px;
     display: flex;
@@ -54,7 +65,7 @@ nav li .home {
     max-width: 1170px;
     height: 500px;
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     position: relative;
 
@@ -64,7 +75,7 @@ nav li .home {
     position: absolute;
 
     left: 22%;
-    top: 30%;
+    top: 25%;
 
 }
 
@@ -89,16 +100,14 @@ nav li .home {
 .banner input {
     padding: 16px 60px 16px 16px;
     border-radius: 16px;
+    border: none;
 }
 
 .banner .select {
     padding: 16px 60px 16px 16px;
     border-radius: 16px;
-}
+    border: none;
 
-.banner input {
-    padding: 16px 60px 16px 16px;
-    border-radius: 16px;
 }
 
 .banner .button-primary {
@@ -108,9 +117,156 @@ nav li .home {
     border: none;
 }
 
+
+
 .banner .form {
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.30);
     padding: 10px;
 
 }
+
+/* tour container style */
+.tour-container {
+    display: flex;
+    max-width: 1170px;
+    margin: 80px auto;
+
+
+}
+
+.tour-container .popular-tittle {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.tour-container .popular-description {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 1rem;
+}
+
+.tour-container .popular h6 {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.tour-container .popular-footer {
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tour-container .button-read {
+    padding: 16px 60px 16px 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+/* destinatiob section */
+.destination {
+    max-width: 1170px;
+    border: 2px solid tomato;
+    margin: 20px auto;
+
+}
+
+.destination .destination-text-item {
+    text-align: center;
+}
+
+/* choose section related style start*/
+.choose-container {
+    max-width: 1170px;
+    margin: 50px auto;
+
+}
+
+.choose-container .text-section {
+    text-align: center;
+}
+
+.choose-container .choose-card {
+    display: flex;
+    gap: 20px;
+}
+
+.choose-container .choose-card .card1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-container .choose-card .card2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-container .card3 {
+
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 20px auto;
+}
+
+/* choose section related style end*/
+
+/* lost related style start */
+
+.get-lost-section {
+    max-height: 1170px;
+    display: flex;
+    margin: 50px auto;
+    gap: 28px;
+}
+
+.get-lost-section .lost-tittle {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.get-lost-section .lost-description {
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ .get-lost-section .lost-section h6   {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.get-lost-section button {
+    padding: 16px 60px 16px 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+/* lost related style end */
