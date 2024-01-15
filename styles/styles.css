@@ -1,0 +1,116 @@
+header {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+header .travel {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+header img {
+    width: 48px;
+    height: 56.008px;
+
+}
+
+header nav {
+    display: flex;
+}
+
+header .travel-tittle {
+    margin-left: 16px;
+}
+
+header nav li {
+    list-style: none;
+    margin-right: 44px;
+
+}
+
+header .hero {
+    color: #FF5400;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+nav li .home {
+    color: #FF5400;
+}
+
+/* header style end */
+
+/* banner style related css */
+
+.banner {
+    background-image: url(../Images/group1.png);
+    max-width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.banner-text-section {
+    position: absolute;
+
+    left: 22%;
+    top: 30%;
+
+}
+
+.banner .banner-tittle {
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner .banner-description {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.banner input {
+    padding: 16px 60px 16px 16px;
+    border-radius: 16px;
+}
+
+.banner .select {
+    padding: 16px 60px 16px 16px;
+    border-radius: 16px;
+}
+
+.banner input {
+    padding: 16px 60px 16px 16px;
+    border-radius: 16px;
+}
+
+.banner .button-primary {
+    padding: 16px 60px 16px 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+.banner .form {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+
+}
