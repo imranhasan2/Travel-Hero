@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Mulish', sans-serif;
-    
+
 }
 
 
@@ -212,6 +212,8 @@ nav li .home {
     font-weight: 800;
     padding: 132px 227px;
     border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .indonesia {
@@ -224,6 +226,8 @@ nav li .home {
     font-size: 28px;
     font-weight: 800;
     padding: 132px 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .three-img {
@@ -244,6 +248,8 @@ nav li .home {
     font-weight: 800;
     padding: 125px 130px;
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .north-america {
@@ -258,6 +264,8 @@ nav li .home {
     font-weight: 800;
     padding: 125px 136px;
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .kashmir {
@@ -272,6 +280,8 @@ nav li .home {
     font-weight: 800;
     padding: 125.5px 81px;
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .last-two {
@@ -292,6 +302,8 @@ nav li .home {
     font-weight: 800;
     padding: 132.5px 155.5px;
     margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bandarban {
@@ -306,6 +318,8 @@ nav li .home {
     font-weight: 800;
     padding: 132.5px 259.5px;
     margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* destination section end */
@@ -555,95 +569,119 @@ footer p {
 
 /* responsive  for mobile device */
 @media screen and (max-width:600px) {
+
     header,
-    .tour-container{
+    .tour-container {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         margin-top: 10px;
     }
-    .banner{
+
+    .banner {
         max-width: 100%;
     }
-    .banner .banner-tittle{
+
+    .banner .banner-tittle {
         font-size: 2rem;
         position: relative;
         margin-right: 20px;
         text-align: center;
         transform: translateY(-100%);
     }
-    .banner .banner-description{
+
+    .banner .banner-description {
         margin-top: 0%;
         margin-bottom: 0px;
         margin-right: 25px;
         transform: translateY(-65%);
 
     }
-    .banner form{
+
+    .banner form {
         display: grid;
         gap: 10px;
         margin-right: 30px;
         width: 80px;
         transform: translateY(-20%);
     }
-    .tour-container .popular{
+
+    .tour-container .popular {
         margin-left: 10px;
     }
-    .tour-container .button-read{
-       margin-bottom:  15px;
+
+    .tour-container .button-read {
+        margin-bottom: 15px;
     }
-    .tour-container .tour-img img{
-        width:100%;
+
+    .tour-container .tour-img img {
+        width: 100%;
     }
-    .destination .two-img{
+
+    .destination .two-img {
         flex-direction: column;
     }
-    .destination .three-img{
+
+    .destination .three-img {
         flex-direction: column;
     }
-    .destination .last-two{
+
+    .destination .last-two {
         flex-direction: column;
     }
-    .choose-container .choose-card{
+
+    .choose-container .choose-card {
         flex-direction: column;
     }
-    .choose-container .card1{
+
+    .choose-container .card1 {
         max-width: 90%;
         margin: 5px auto;
     }
-    .choose-container .card2{
+
+    .choose-container .card2 {
         max-width: 90%;
         margin: 5px auto;
     }
-    .choose-container .card3{
+
+    .choose-container .card3 {
         max-width: 90%;
         margin: 5px auto;
     }
-    .get-lost-section{
+
+    .get-lost-section {
         flex-direction: column;
     }
-    .get-lost-section .lost-section{
+
+    .get-lost-section .lost-section {
         max-width: 100%;
         margin-left: 10px;
         padding: 10px;
     }
-    .get-lost-section .back-img{
+
+    .get-lost-section .back-img {
         max-width: 90%;
     }
-    .news-container{
+
+    .news-container {
         flex-direction: column;
 
     }
-    .news-container .new-item-container{
-        max-width: 90%;
+
+    .news-container .new-item-container {
+        width: 474px;
+        height: 422px;
     }
-    .news-container .news-img img{
-       max-width: 80%;
-       max-height: 60%;
-       margin-top: 10px;
-       
+
+    .news-container .news-img img {
+        width: 672px;
+        height: 422px;
+        margin-top: 10px;
+
     }
-     .news-container .news-container-button {
+
+    .news-container .news-container-button {
         width: 30%;
         height: 25%;
         position: relative;
@@ -652,7 +690,3 @@ footer p {
 
     }
 }
-
-
-
-
