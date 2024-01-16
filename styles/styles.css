@@ -187,6 +187,53 @@ nav li .home {
     text-align: center;
 }
 
+.destination .destination-row {
+    color: #FFF;
+    display: grid;
+    grid-template-rows: 573px 573px 374px 474px 274px 473px 673px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Maldives {
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    grid-row: 1/3;
+}
+
+.indonesia {
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    grid-row: 1/3;
+}
+
+.Srilanka {
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+}
+
+.NorthAmerica {
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+}
+
+.Kashmir {
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+
+.Bangladesh {
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+}
+
+.Bandarban {
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
 /* choose section related style start*/
 .choose-container {
     max-width: 1170px;
@@ -234,39 +281,67 @@ nav li .home {
 /* lost related style start */
 
 .get-lost-section {
-    max-height: 1170px;
+    max-width: 1170px;
     display: flex;
+    background-size: 50;
     margin: 50px auto;
-    gap: 28px;
+
 }
+
+.get-lost-section .back-img {
+    background-image: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 424px;
+}
+
+.get-lost-section .back-img h1 {
+    color: #FFF;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 130px;
+    font-size: 1.5rem;
+}
+
 
 .get-lost-section .lost-tittle {
     color: #131318;
-
-    font-family: Mulish;
     font-size: 2.8rem;
     font-weight: 800;
+
+}
+
+.get-lost-section .lost-section {
+    max-width: 50%;
 }
 
 .get-lost-section .lost-description {
     color: #5A5A5D;
 
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+
+    font-size: 1rem;
+
 }
 
- .get-lost-section .lost-section h6   {
+.get-lost-section .lost-section h6 {
     color: #131318;
     font-size: 1rem;
     font-weight: 700;
-    margin-left: 20px;
 }
+
 .get-lost-section button {
     padding: 16px 60px 16px 16px;
     border-radius: 8px;
     background: #FF5400;
     border: none;
 }
+
+.get-lost-section .lost-img h3 {
+    text-align: center;
+    top: 40%;
+}
+
+
 /* lost related style end */
