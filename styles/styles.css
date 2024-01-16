@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0%;
 }
 
 
@@ -176,62 +178,138 @@ nav li .home {
 }
 
 /* destinatiob section */
-.destination {
-    max-width: 1170px;
-    border: 2px solid tomato;
-    margin: 20px auto;
-
-}
-
-.destination .destination-text-item {
+.destination-div {
     text-align: center;
+    justify-content: center;
 }
 
-.destination .destination-row {
-    color: #FFF;
-    display: grid;
-    grid-template-rows: 573px 573px 374px 474px 274px 473px 673px;
-    grid-template-columns: repeat(3, 1fr);
+.destination-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.Maldives {
-    background-image: url(../Images/Rectangle\ 5.png);
-    background-repeat: no-repeat;
-    grid-row: 1/3;
+.destination-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Places part  */
+.two-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.maldives {
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 5.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 132px 227px;
+    border-radius: 16px;
 }
 
 .indonesia {
-    background-image: url(../Images/Rectangle\ 8.png);
-    background-repeat: no-repeat;
-    grid-row: 1/3;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 8.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 132px 220px;
 }
 
-.Srilanka {
-    background-image: url(../Images/Rectangle\ 6.png);
-    background-repeat: no-repeat;
+.three-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
-.NorthAmerica {
-    background-image: url(../Images/Rectangle\ 7.png);
-    background-repeat: no-repeat;
+.srilanka {
+    border-radius: 16px;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 6.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 130px;
+    margin: 0;
 }
 
-.Kashmir {
-    background-image: url(../Images/Rectangle\ 9.png);
-    background-repeat: no-repeat;
+.north-america {
+    border-radius: 16px;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 7.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 136px;
+    margin: 0;
 }
 
-.Bangladesh {
-    background-image: url(../Images/Rectangle\ 11.png);
-    background-repeat: no-repeat;
+.kashmir {
+    border-radius: 16px;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 9.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125.5px 81px;
+    margin: 0;
 }
 
-.Bandarban {
-    background-image: url(../Images/Rectangle\ 10.png);
-    background-repeat: no-repeat;
+.last-two {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
+.bangladesh {
+    border-radius: 16px;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 11.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 132.5px 155.5px;
+    margin-bottom: 5px;
+}
 
+.bandarban {
+    border-radius: 16px;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url(../Images/Rectangle\ 10.png);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 132.5px 259.5px;
+    margin-bottom: 5px;
+}
+
+/* destination section end */
 
 
 /* choose section related style start*/
@@ -294,6 +372,7 @@ nav li .home {
     width: 610px;
     height: 424px;
     margin-left: 30px;
+    position: relative;
 }
 
 .get-lost-section .back-img h1 {
@@ -344,6 +423,14 @@ nav li .home {
     top: 40%;
 }
 
+.get-lost-section .frame-container {
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(1300%);
+    bottom: 0;
+}
+
+
 
 /* lost related style end */
 
@@ -387,9 +474,10 @@ nav li .home {
     margin-bottom: 24px;
 
 }
-.new-item-container input{
-  padding: 16px 150px 16px 20px;
-  margin-top: 16px;
+
+.new-item-container input {
+    padding: 16px 150px 16px 20px;
+    margin-top: 16px;
 }
 
 .news-button {
@@ -399,20 +487,68 @@ nav li .home {
     border: none;
     margin-top: 50px;
 }
+
+.news-container .news-container-button {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 52%;
+    bottom: 40%;
+    transform: rotate(-19.628deg);
+}
+
+.news-container .news-img p {
+    color: #FFF;
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2px 0 0 0;
+}
+
+.news-container .news-img h1 {
+    color: #FFF;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 /* new related style end */
 
 /* footer section start */
 
 footer {
     max-width: 1170px;
-    background-color:  rgba(19, 19, 24, 0.10);
+    background-color: rgba(19, 19, 24, 0.10);
+    margin: 20px auto;
 }
-footer .footer-tittle{
-    
-     display: flex;
-     align-items: center;
-     justify-content: center;
+
+footer .footer-tittle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-footer .footer-description{
+
+footer .footer-description {
     text-align: center;
+}
+
+footer .footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+footer .footer-tittle img {
+    margin-right: 20px;
+}
+
+footer p {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 20px
 }
